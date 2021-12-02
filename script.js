@@ -24,8 +24,8 @@ async function getCanvasData(){
     context.drawImage(plan, 0, 0, canvas.width, canvas.height);
 
     testImage.src = canvas.toDataURL("image/png");
-    testImage.width = 1200;
-    testImage.height = 900;
+    testImage.width = 375;
+    testImage.height = 175;
 
    getSVG(testImage.src);
 }
