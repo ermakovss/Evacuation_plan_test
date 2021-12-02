@@ -18,8 +18,8 @@ getCanvasData();
 async function getCanvasData(){
     let plan = await loadImage(imageLoad.src);
 
-    canvas.height = 1400;
-    canvas.width = 1600;
+    canvas.height = 200;
+    canvas.width = 400;
 
     context.drawImage(plan, 0, 0, canvas.width, canvas.height);
 
