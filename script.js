@@ -8,8 +8,11 @@ context.imageSmoothingEnabled = false;
 let imageLoad = document.getElementById("image");
 let testImage = document.getElementById("testImage");
 
+let svgContainer = document.getElementById("svgcontainer");
+
 let counter = 0;
 
+svgContainer.style.width = "1200px";
 canvas.style.display = "none";
 imageLoad.style.display = "none";
 testImage.style.display = "none";
